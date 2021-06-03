@@ -1,0 +1,9 @@
+{
+    "Scenario": {
+        "Site": {
+            "CHP": {
+                "prime_mover": "recip_engine"
+            }
+        }
+    }
+}
