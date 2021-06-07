@@ -3,7 +3,7 @@
 src/__pycache__/
 
 # Only track the template notebook, not custom ones
-notebooks/
+notebooks/*
 !notebooks/notebook_template.ipynb
 
 saved_posts/
