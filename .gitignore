@@ -1,11 +1,16 @@
-.vscode/*
+.vscode/
 
-src/__pycache__/*
+__pycache__/
 
 # Only track the template notebook, not custom ones
 notebooks/*
 !notebooks/notebook_template.ipynb
 
-saved_posts/*
+# Only track results_poller
+src/*
+!src/results_poller.py
 
+# Ignore custom-saved post/response files
+saved_posts/*
 saved_responses/*
+
